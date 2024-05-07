@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo1 {
+    height: 150px;
+    width: auto;
+}
+
+.arrow {
+    width: 3rem;
+    height: 3rem;
+}
+.scroll {
+    margin-top: 2em;
+    background-color: transparent;
+    border: transparent;
+    border-radius: none;
+    align-items: center;
+}
+.scroll:hover{
+    cursor: pointer;
+}
+
+header {
+    background-image: url(../images/header.png);    
+    background-color: #D12315;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.headercontent {
+    width: 40em;
+    background-color: rgba(255, 192,0,0.7);
+    padding: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.heading2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 5rem;
+    color: #D12315;
+    padding-top: 0.5em;
+}
+.htext {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+.hbtn {
+     width: 10em;
+    height: 3em;
+    border-style: solid;
+    border-color:  #D12315;
+    border-width: 3px;
+    border-radius: 0.3em;
+    background-color: transparent;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+}
+
+.hbtn:hover {
+    background-color: #D12315;
+    cursor: pointer;
+}
+.myimage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7.5em;
+    margin-left: 1em;
+}
+
+.myimage1 {
+    height: 35em;
+    width: auto;
+}
+
+
+nav {
+    background-color:  #D12315;
+    width: auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5em;
+}
+a {
+    color: #FFC000;
+    text-decoration: none;
+}
+.resumepdf {
+        color: black;
+    text-decoration: none;
+}
+
+.logo1y {
+    height: 4rem;
+    width:auto;
+    /* padding: 0.5em; */
+}
+ul {
+    display: flex;
+    list-style: none; 
+    justify-content: space-around;
+}
+li {
+    color: #FFC000;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 1.2em;
+    font-size: 2rem;
+}
+
+.maincontent {
+    background-color: #FFC000;
+    padding:1em;
+}
+
+.secondtext {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 4rem;
+    padding-top: 2em;
+    color: #D12315;
+}
+.secondtextP {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: #D12315;
+    text-align: center;
+}
+.thirdtext {
+    font-family:"Open Sans", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+.myportfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery {
+    margin: 2px;
+    width: auto;
+    height: 400px;
+}
+.pbtn {
+    width: 8em;
+    height: 2em;
+    border-style: solid;
+    border-color:  #D12315;
+    border-width: 3px;
+    border-radius: 0.3em;
+    background-color: transparent;
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+   display: block;
+   margin-top: 0.5em;
+   margin-left:auto;
+   margin-right: auto;
+}
+.pbtn:hover {
+    background-color: #D12315;
+    cursor: pointer;
+    color: #FFC000;
+}
+
+.testimonials {
+    background-color: #D12315;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 2em;
+justify-content: center;
+}
+.portfolioitems {
+width: 100vw;
+height: 4em;
+}
+
+.tsecondtext {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color:#FFC000;
+    text-align: center;
+}
+
+.ttext {
+background-color:#FFC000;
+width: 28em;
+margin: 0.5em;
+text-align: center;
+padding: 3em;
+}
+
+h3 {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.testi1 {
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    font-size: 1em;
+}
+
+.contactinfo {
+    background-color: #FFC000;
+}
+.csecondtext {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 4rem;
+    color: #D12315;
+    text-align: center;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.cemail {
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+    font-size: 2rem;
+    /* padding: 0.5em 0; */
+}
+.cemailadd {
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+.footerlogo {
+    width: 4.2em;
+    height: auto;
+    padding-top: 2.3em;
+}
+footer {
+    background-image: url(../images/footer.png);
+    background-color: #FFC000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 1em; */
+}
+.ftext {
+    color:#FFC000;
+    margin: 2em;
+}
+.fbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7em;
+    justify-content: center;
+    font-family:"bebas neue", sans-serif;
+}
+.footercopywright {
+    background-color: black;
+    color: #FFC000;
+    text-align: center;
+    height: 3em;
+    padding-top:1em;
+}
+
+/* About Me---------------------------------------------------------------------------------------------------------------------------*/
+.aboutmeheader {
+    background-color: #FFC000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+    text-align: left;
+}
+.aboutmetext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55em;
+    margin: 0 3em;
+
+}
+.aboutmeimage {
+    width: 20rem;
+    height:auto;
+}
+
+strong {
+    color:#D12315;
+}
+.testi2 {
+    font-family:"Open Sans", sans-serif;
+    font-size: 1em;
+}
+.acemailadd {
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.3em;
+    text-align: left;}
+
+    /* My portfolio -------------------------------------------------------------------------------------------------*/
+.pheader1 {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+  .pheader {
+    background-color: #FFC000;
+  }
+
+  .pheaderbanner {
+    height: 40em;
+    width: auto;
+    margin-left: 1em;
+  }
+  .pbannertexts {
+    padding: 10em 3em;
+    width: 40em;
+  }
+  .pbannertext {
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.2em;
+    color: #FFC000;
+  }
+  .flyerimages {
+    width: 600px;
+    height: auto;
+    margin: 0.5em;
+  }
+  .posterimages {
+    height: 500px;
+    width: auto;
+    margin: 0.5em;
+  }
+  .zodiacimages {
+    width: 400px;
+    height: auto;
+    margin: 0.5em;
+  }
+  .calenderimages {
+    width: 400px;
+    height: auto;
+    margin: 0.5em;
+  }
+  .cybersecurityimages {
+    height: 300px;
+    width: auto;
+    margin: 0.5em;
+
+  }
+  .certificateimage{
+    height: 300px;
+    width: auto;
+    margin: 0.5em;
+  }
+  .ptsecondtext {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 80px;
+    color: #D12315;
+    text-align: left;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+/* @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #D12315, 0 0 40px #D12315, 0 0 50px #D12315, 0 0 60px #D12315, 0 0 70px #D12315;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #E62423, 0 0 40px #E62423, 0 0 50px #E62423, 0 0 60px #E62423, 0 0 70px #E62423, 0 0 80px #E62423;
+    }
+  } */
+  
+.psubhead {
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 3rem;
+    color:#D12315;
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+.flyer {
+    padding: 2em;
+}
+.zodiacs {
+    background-color: rgba(255,255,255, 0.5);
+    padding: 2em;
+}
+.months {
+    padding: 2em;
+}
+.typography {
+    background-color: rgba(255,255,255, 0.5);
+    padding: 2em;
+}
+.powerpointproject1 {
+    padding: 2em;
+}
+.powerpointproject2 {
+    background-color: rgba(255,255,255, 0.5);
+    padding: 2em;
+}
+.pimagegallery {
+display: flex;
+flex-wrap: wrap;
+padding: 0 5em;
+justify-content: center;
+}
